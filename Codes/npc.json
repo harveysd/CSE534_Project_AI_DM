@@ -1,0 +1,146 @@
+{ 
+    "Village Friends": [
+        {
+            "name": "Eldrin the Wise",
+            "description": "High magical power, but physically frail due to age",
+            "role": "Wizard",
+            "location": "Village",
+            "HP": 65,
+            "attack_power": 75,
+            "status": "friendly",
+            "spawn_chance": 0.4
+        },
+        {
+            "name": "Thalia Bightspark",
+            "description": "Average combat ability, relies more on gadgets",
+            "role": "Merchant",
+            "location": "Village",
+            "HP": 60,
+            "attack_power": 55,
+            "status": "friendly",
+            "spawn_chance": 0.6
+        },
+        {
+            "name": "Captain Aric Stonefist",
+            "description": "Seasoned warrior with high combat prowess",
+            "role": "Military Leader",
+            "location": "Village",
+            "HP": 85,
+            "attack_power": 80,
+            "status": "friendly",
+            "spawn_chance": 0.3
+        },
+        {
+            "name": "Lady Seraphine",
+            "description": "Above average due to training, but not a primary fighter",
+            "role": "Noble Spy",
+            "location": "Village",
+            "HP": 70,
+            "attack_power": 60,
+            "status": "neutral",
+            "spawn_chance": 0.4
+        },
+        {
+            "name": "Grom Ironjaw",
+            "description": "Tough dwarf with extensive combat experience",
+            "role": "Mercenary",
+            "location": "Village",
+            "HP": 90,
+            "attack_power": 85,
+            "status": "neutral",
+            "spawn_chance": 0.2
+        },
+        {
+            "name": "Mira Nightshade",
+            "description": "Agile and skilled in combat, but lower HP",
+            "role": "Rogue",
+            "location": "Village",
+            "HP": 65,
+            "attack_power": 70,
+            "status": "neutral",
+            "spawn_chance": 0.7
+        },
+        {
+            "name": "Brother Alaric",
+            "description": "Moderate combat ability, focus on healing",
+            "role": "Healer",
+            "location": "Village",
+            "HP": 75,
+            "attack_power": 65,
+            "status": "friendly",
+            "spawn_chance": 0.5
+        },
+        {
+            "name": "Fenwick the Bard",
+            "description": "Jack-of-all-trades, average in combat",
+            "role": "Entertainer",
+            "location": "Village",
+            "HP": 60,
+            "attack_power": 60,
+            "status": "friendly",
+            "spawn_chance": 0.9
+        },
+        {
+            "name": "Ragna Stonebreaker",
+            "description": "Physically strong, skilled with weapons",
+            "role": "Blacksmith",
+            "location": "Village",
+            "HP": 80,
+            "attack_power": 75,
+            "status": "friendly",
+            "spawn_chance": 0.3
+        },
+        {
+            "name": "Old Man Thorne",
+            "description": "Elderly and not combat-oriented",
+            "role": "Lorekeeper",
+            "location": "Village",
+            "HP": 50,
+            "attack_power": 40,
+            "status": "friendly",
+            "spawn_chance": 0.7
+        }
+    ], 
+    "enemies": [
+        {
+            "name": "Goblin",
+            "description": "A small, green-skinned creature with a mischievous grin and a knack for trouble.",
+            "health": 15,
+            "attack_power": 3,
+            "status": "hostile", 
+            "loot": ["Gold Coin", "Dagger"]
+        },
+        {
+            "name": "Orc Warrior",
+            "description": "A hulking orc with thick muscles and a fierce glare, wielding a large axe.",
+            "health": 30,
+            "attack_power": 7,
+            "status": "hostile", 
+            "loot": ["Orcish Axe", "Leather Armor"]
+        },
+        {
+            "name": "Skeleton Archer",
+            "description": "A reanimated skeleton armed with a bow, its empty eye sockets fixed on its target.",
+            "health": 20,
+            "attack_power": 5,
+            "status": "hostile", 
+            "loot": ["Bone Fragment", "Arrows", "Longbow"]
+        },
+        {
+            "name": "Fire Elemental",
+            "description": "A being of pure flame that crackles and flickers with intense heat.",
+            "health": 40,
+            "attack_power": 10,
+            "status": "hostile", 
+            "loot": ["Ember Shard", "Molten Core"]
+        },
+        {
+            "name": "Vampire",
+            "description": "A pale figure with piercing red eyes and sharp fangs, exuding an air of menace.",
+            "health": 35,
+            "attack_power": 8,
+            "status": "hostile", 
+            "loot": ["Silver Pendant", "Vampire Fang"]
+        }
+    ]
+}
